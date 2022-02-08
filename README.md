@@ -18,7 +18,7 @@ password: password
 Steps to use the image from docker hub:
 
 1. docker pull nikolaypeshev/autopass:12.3
-2. docker -up  docker run -p 5814:5814 -d --name autopass nikolaypeshev/autopass:12.3
+2. docker run -p 5814:5814 -d --name autopass nikolaypeshev/autopass:12.3
 
 URL: https://localhost:5814/autopass/ls/login
 username: admin
